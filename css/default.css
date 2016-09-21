@@ -1,0 +1,63 @@
+/* Embedded Fonts */
+@font-face {
+	font-family: title;
+	src: url(../fonts/GermaniaOne-Regular.ttf);
+}
+
+
+
+/* Container Items */
+html,body {
+	height: 100%;
+}
+
+#cover {
+	width: 100%;
+	height: 100%;
+	background: url("../images/cover.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+}
+
+#container {
+	background: none;
+}
+
+
+
+/* Paragraph Styles */
+
+.title {
+	font-family: title;
+	font-size: 6em;
+	line-height: 2em;
+	color:rgb(26, 129, 163);
+	text-align: center;
+	padding-top: -35px;
+}
+
+.author {
+	font-family: title;
+	font-size: 2em;
+	color: rgb(7, 86, 112);
+	text-align: right;
+	margin-right:10.5%;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.text {
+	font-family: 'David Libre', serif;
+	width: 65%;
+	font-size: 1em;
+	color: black;
+	line-height: 2em;
+	letter-spacing: 0.05em;
+	word-spacing: .15em;
+	margin-left:17%;
+	text-align: center;
+	text-indent: 5em;
+	text-align:justify;
+}
